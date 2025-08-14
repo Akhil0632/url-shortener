@@ -59,3 +59,22 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Project Setup
+
+- **Clone the repo - git clone https://github.com/Akhil0632/url-shortener.git**
+- **Open the terminal and change the directory to the project directory -  cd url-shortener**
+- **Create .env and copy .env.example - cp .env.example .env**
+- **In env file change the value to these values :-**
+- **DB_CONNECTION=mysql**
+- **DB_DATABASE=url_shortener**
+- **DB_USERNAME=your username**
+- **DB_PASSWORD= your password**
+- **Install dependencies - composer install**
+- **Generate application key with this command - php artisan key:generate**
+- **Run migration - php artisan migrate**
+- **Run project - php artisan serve**
+
+### URL of Project
+
+- **Visit the url http://127.0.0.1:8000/ to get into the application. Here you can give long url, custom alias and expire days. Then clicking  shorten button, it will shorten your url.**
